@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB2-JavaScript</title>
+  <meta charset="utf-8">
+<style>
+ .js{
+   font-weight: bold;
+   color:red;
+ }
+ #first{
+     color:darkgreen;
+ }
+ span{
+   color:blue;
+ }
+</style>
+
+
+</head>
+<body>
+  <h1><a href="index.html">생활코딩</a> / <a href="JSINDEX.html">WEB2-JavaScript</a></h1>
+  <input type="button" value="night" onclick="
+document.querySelector('body').style.backgroundColor = 'black';
+document.querySelector('body').style.color = 'white';
+  ">
+  <input type="button" value="day" onclick="
+document.querySelector('body').style.backgroundColor = 'white';
+document.querySelector('body').style.color = 'black';
+  ">
+  <ol>
+    <li><a href="JS1.html">수업의 목적</a></li>
+    <li>HTML과 JavaScript의 만남 1 : Script 태그</li>
+    <li>HTML과 JavaScript의 만남 2 : 이벤트</li>
+    <li>HTML과 JavaScript의 만남 3 : 콘솔</li>
+    <li>데이터타입-문자열과 숫자</li>
+    <li><a href="JS2.html">변수와 대입연산자</a></li>
+    <li>웹브라우저 제어</li>
+    <li>CSS 기초</li>
+    <li>제어할 테그 선택하기</li>
+    <li>프로그램, 프로그래밍, 프로그래머</li>
+    <li><a href="JS3.html">조건문 예고</a></li>
+    <li>비교연산자와 Boolean 데이터 타입</li>
+    <li>조건문</li>
+    <li>조건문의 활용</li>
+    <li>리팩토링 (refactoring)</li>
+    <li><a href="JS4.html">반복문 예고</a></li>
+    <li>배열</li>
+    <li>반복문</li>
+    <li>배열과 반복문</li>
+    <li>배열과 반복문의 활용</li>
+    <li><a href="JS5.html">함수예고</a></li>
+    <li>함수</li>
+    <li>함수의 활</li>
+    <li>객체예고</li>
+    <li>객체</li>
+    <li><a href="JS6.html">객체의 활용</a></li>
+    <li>파일로 쪼개서 정리정돈하기</li>
+    <li>라이브러리와 프래임워크</li>
+    <li>Ul vs API</li>
+    <li>수업을 마치며</li>
+  </ol>
+<br>
+
+  <h2>6. 변수와 대입연산자</h2>
+  <p>variable (var) 변수 : 바뀔수 있는</p>
+  <p>= 대입연산자 : 좌항과 우항을 결합해서 우항의 값을 만들어낸다.</p>
+  <p>constant 상수 : 바뀌지 않는 것</p>
+  <p>실행을 유보할 때 : shift+enter</p>
+  <p>name 변수 사용 예제 :</p>
+  <p>var name = 'egoing';
+  alert("  "+name+"      ");</p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+
+  <h2>7. 웹브라우저 제어</h2>
+  <p>CSS의 본질적이고 중요한 문법</p>
+  <p>javascript를 이용하여 제어할 태그를 선택하 방법</p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+
+
+
+  <h2 style="background-color:coral;color:powderblue;">8. CSS 기초</h2>
+  <p>
+    <span id="first" class="js">Javascript</span> (JS) is a scripting languages,
+    primarily used on the Web. It is used to enhance <span>HTML</span> pages
+    and is commonly found embedded in <span>HTML</span> code.
+    <span class="js">Javascript</span> is an interpreted language.
+    Thus, it doesn't need to be compiled.
+    <span class="js">Javascript</span> renders web pages in an interactive and dynamic fashion.
+    This allowing the pages to react to events,
+    exhibit special effects, accept variable text, validate data,
+    create cookies, detect a user’s browser, etc.
+  </p>
+
+<h3>style 속성을 이용해서 CSS 사용하기</h3>
+  <p>style="color:powderblue"</p>
+  <p>color:blue : CSS의 property (속성)</p>
+  <p>검색 : CSS background color property</p>
+  <p>background-color: coral;</p>
+  <p>혁명적 순간</p>
+  <p>style속성을 사용 : 특정태그를 CSS언어로 디자인하고 싶을때</p>
+  <br>이때 CSS의 property라고 하는 문법을 사용
+
+<h3>style 태그를 이용해서 CSS 사용하기</h3>
+  <p>선택자 : 좀더 효율적임</p>
+  <p>제목이 아님. CSS로 꾸미. 하지만 어떤기능도 어떤 의미도 없는 태그가 필요</p>
+  <p>div 태그 : 어떤기능도 어떤 의미도 없이 CSS나 javascript를 사용. 하지만 줄바꿈이 됨</p>
+  <p>span 태그 : 같은 용도지만 줄바꿈이 안됨.</p>
+  <p>검색 : CSS text bold property</p>
+  <p>font-weight: bold;</p>
+  <p>style (html의 코드) 태그 : 구분자. script태그처럼 style태그로 감싸져 있는 text가 CSS이다</p>
+  <p>class=""</p>
+  <p>.js : class 값이 js인 text에 CSS를 사용한다는 의미</p>
+  <p>.js{
+    font-weight: bold;
+  }
+  </p>
+
+<h3>CSS 선택자</h3>
+  <p>id="first"</p>
+  <p>#first : id 값이 first인 text에 CSS를 사용한다는 의미</p>
+  <p>#first{
+      color:green;
+  }</p>
+  <p>class는 그룹핑. id는 식별</p>
+  <p>span{
+    color:blue;
+  }</p>
+  <p>span : .도 없고, #도 없는 경우는 이 웹페이지에 있는 모든 span태그에 대하여 CSS를 적용한다의 의미.</p>
+  <p>javascript를 이용해서 어떻게 html과 CSS를 제어할 것인지 공부할 예정</p>
+
+
+  <h2>9. 제어할 태그 선택하기</h2>
+  <p>
+    <input type="button" value="night"onclick="
+
+    ">
+    <input type="button" value="day">
+  </p>
+  <p>버튼을 클릭했을 때 body태그에 style속성을 동적으로</p>
+
+  <p><a href="https://developer.mozilla.org/ko/docs/Web/API/Document/querySelector" target=_blank>
+    검색 : javascript select tag by CSS selector</a></p>
+  <p>var el = document.querySelector(".myclass");</p>
+  <p>query : 질의한다</p>
+  <p>Selector : CSS의 selector를 의미</p>
+  <p>".myclass" : class 값이 myclass인 text</p>
+  <br>
+  <p>body태그에 style속성을 javascript로 넣을 수 있는지</p>
+  <p><a href="https://www.w3schools.com/jsref/dom_obj_style.asp" target="_blank">
+    검색 : javascript element style</a>
+  </p>
+  <p>element : 태그를 의미</p>
+  <p>var x = document.getElementById("myH1").style; </p>
+  <p></p>
+  <p><a href="https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp" target="_blank">
+    검색 : javascript style background color</a>
+  </p>
+  <p>document.body.style.backgroundColor = "red"; </p>
+  <p>CSS에서는 background-color로 사용하는데,
+  javascript에서는 backgroundColor로 사용한다.</p>
+<p>택스트의 색상을 바꿀때는 .color를 사용한다.
+  </p>
+<p>주간모드 & 야간모드 : 사용자와 상호작용하여 html와 CSS를 프로그래밍적으로 변경하는 것.</p>
+<p>" '도 확실히 구분해서 써야하는군요!</p>
+
+
+  <h2>10. 프로그램, 프로그래밍, 프로그래머</h2>
+<p>javascript : 컴퓨터 언어, 프로그래밍언어, 사용자와 상호작용하기 위하여 고안된 언어</p>
+<p>html : 프로그래밍언어 X, 시간의 순서에 따라 실행되는 기능이 없음</p>
+<p>프로그래밍 : 시간의 순서에 따라서 실행되어야 할 기능을 프로그래밍언어의
+  문법에 맞게 기재하는 것</p>
+<p></p>
+<p></p>
+
+
+
+
+
+<h2></h2>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+
+
+
+
+
+
+
+
+
+    <p>
+      <div id="disqus_thread"></div>
+      <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://web1-lgd5ko67xa.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </p>
+
+
+
+</body>
+</html>

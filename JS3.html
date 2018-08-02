@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB2-JavaScript</title>
+  <meta charset="utf-8">
+<style>
+ .js{
+   font-weight: bold;
+   color:red;
+ }
+ #first{
+     color:darkgreen;
+ }
+ span{
+   color:blue;
+ }
+</style>
+
+
+</head>
+<body>
+  <h1><a href="index.html">생활코딩</a> / <a href="JSINDEX.html">WEB2-JavaScript</a></h1>
+
+  <input id="night_day" type="button" value="night" onclick="
+  if(document.querySelector('#night_day').value === 'night'){
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color = 'white';
+    document.querySelector('#night_day').value = 'day';
+  } else {
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+    document.querySelector('#night_day').value = 'night';
+  }
+  ">
+
+  
+  <ol>
+    <li><a href="JS1.html">수업의 목적</a></li>
+    <li>HTML과 JavaScript의 만남 1 : Script 태그</li>
+    <li>HTML과 JavaScript의 만남 2 : 이벤트</li>
+    <li>HTML과 JavaScript의 만남 3 : 콘솔</li>
+    <li>데이터타입-문자열과 숫자</li>
+    <li><a href="JS2.html">변수와 대입연산자</a></li>
+    <li>웹브라우저 제어</li>
+    <li>CSS 기초</li>
+    <li>제어할 테그 선택하기</li>
+    <li>프로그램, 프로그래밍, 프로그래머</li>
+    <li><a href="JS3.html">조건문 예고</a></li>
+    <li>비교연산자와 Boolean 데이터 타입</li>
+    <li>조건문</li>
+    <li>조건문의 활용</li>
+    <li>리팩토링 (refactoring)</li>
+    <li><a href="JS4.html">반복문 예고</a></li>
+    <li>배열</li>
+    <li>반복문</li>
+    <li>배열과 반복문</li>
+    <li>배열과 반복문의 활용</li>
+    <li><a href="JS5.html">함수예고</a></li>
+    <li>함수</li>
+    <li>함수의 활</li>
+    <li>객체예고</li>
+    <li>객체</li>
+    <li><a href="JS6.html">객체의 활용</a></li>
+    <li>파일로 쪼개서 정리정돈하기</li>
+    <li>라이브러리와 프래임워크</li>
+    <li>Ul vs API</li>
+    <li>수업을 마치며</li>
+  </ol>
+<br>
+
+  <h2>11. 조건문 예고</h2>
+  <p>조건문 : 조건에 따라서 다른 순서의 기능들이 발현</p>
+  <p>토글 기능</p>
+  <p>if 조건문, 비교연산자, Boolean</p>
+
+
+
+  <h2>12. Comparison operator (비교연산자)와 Boolean 데이터 타입</h2>
+
+  <h3>===</h3>
+  <p>document.write() : 웹페이지에 ()를 출력하게 하는 언어</p>
+
+  <h4>1===1</h4>
+  <script>
+  document.write(1===1);
+  </script>
+
+  <h4>1===2</h4>
+  <script>
+  document.write(1===2);
+  </script>
+
+  <p>=== : 비교연산자, 이항연산자, true 혹은 false의 결과를 나타냄.
+  단 2개의 데이터로 이루어져 있는 데이터타입.</p>
+  <p>데이터타입 : Number, String</p>
+
+  <h4>1&lt;2</h4>
+  <script>
+  document.write(1<2);
+  </script>
+  <p> &lt; : ~가 ~보다 작다. ">"의 의미를 갖는 언어.</p>
+
+  <h4>1&lt;1</h4>
+  <script>
+  document.write(1<1);
+  </script>
+
+
+
+
+  <h2>13. Conditional statement(조건문)</h2>
+  <h3>Program</h3>
+  <script>
+  document.write("1<br>");
+  document.write("2<br>");
+  document.write("3<br>");
+  document.write("4<br>");
+  </script>
+
+  <h3>IF-true</h3>
+  <script>
+  document.write("1<br>");
+  if(true){
+    document.write("2<br>");
+  } else{
+    document.write("3<br>");
+  }
+  document.write("4<br>");
+  </script>
+
+  <h3>IF-false</h3>
+  <script>
+  document.write("1<br>");
+  if(false){
+    document.write("2<br>");
+  } else{
+    document.write("3<br>");
+  }
+  document.write("4<br>");
+  </script>
+
+
+  <h2>14. 조건문의 활용</h2>
+<p>검색 : <a href="https://stackoverflow.com/questions/4173391/javascript-get-element-value"
+  target=-blank>javascript element get value</a></p>
+<p>var value = document.getElementById(id).value;/p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2>15. 리팩토링 (refactoring)</h2>
+
+
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+
+
+
+
+
+
+
+
+
+    <p>
+      <div id="disqus_thread"></div>
+      <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://web1-lgd5ko67xa.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </p>
+
+
+
+</body>
+</html>
